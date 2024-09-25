@@ -26,4 +26,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build --no-restore
+      run: |
+       cd ./SagaGamesHub/
+       dotnet build
