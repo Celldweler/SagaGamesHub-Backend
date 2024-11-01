@@ -11,11 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaGamesHub.WebApi", "SagaGamesHub.WebApi\SagaGamesHub.WebApi.csproj", "{1A80B5F3-E32E-45E2-A789-15967A60A0E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaGamesHub.Data", "SagaGamesHub.Data\SagaGamesHub.Data.csproj", "{84FDFE63-3F08-4030-8623-E0E2E075C693}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaGamesHub.Data", "SagaGamesHub.Data\SagaGamesHub.Data.csproj", "{84FDFE63-3F08-4030-8623-E0E2E075C693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaGamesHub.Core", "SagaGamesHub.Core\SagaGamesHub.Core.csproj", "{D7D4B745-A016-41C8-B514-990967031D3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaGamesHub.Core", "SagaGamesHub.Core\SagaGamesHub.Core.csproj", "{D7D4B745-A016-41C8-B514-990967031D3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaGamesHub.Services", "SagaGamesHub.Services\SagaGamesHub.Services.csproj", "{06CCDC49-EF93-419E-A39D-F23D56E6D69E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SagaGamesHub.Services", "SagaGamesHub.Services\SagaGamesHub.Services.csproj", "{06CCDC49-EF93-419E-A39D-F23D56E6D69E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{64FB0E3E-932E-40E4-9262-51ED38E5F19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaGamesHub.Tests", "Tests\SagaGamesHub.Tests\SagaGamesHub.Tests.csproj", "{B2521576-EB02-4300-A269-6801C16B2460}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,11 +43,18 @@ Global
 		{06CCDC49-EF93-419E-A39D-F23D56E6D69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06CCDC49-EF93-419E-A39D-F23D56E6D69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06CCDC49-EF93-419E-A39D-F23D56E6D69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2521576-EB02-4300-A269-6801C16B2460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2521576-EB02-4300-A269-6801C16B2460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2521576-EB02-4300-A269-6801C16B2460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2521576-EB02-4300-A269-6801C16B2460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEA72915-1918-4925-8A7F-003EC0ECB92C}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2521576-EB02-4300-A269-6801C16B2460} = {64FB0E3E-932E-40E4-9262-51ED38E5F19D}
 	EndGlobalSection
 EndGlobal
